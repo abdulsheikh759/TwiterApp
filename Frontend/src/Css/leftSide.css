@@ -1,0 +1,26 @@
+.custom-scrollbar {
+    height: 500px; /* Adjust the height of the scrollable container */
+    overflow-y: auto;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+      
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 11px; /* Width of the entire scrollbar */
+   
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #888686; /* Color of the tracking area */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #383636; /* Color of the scrollbar */
+    border-radius: 5px; /* Roundness of the scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #050303; /* Color of the scrollbar on hover */
+  }
+  

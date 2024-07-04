@@ -1,0 +1,9 @@
+.sticky-element {
+    position: sticky;
+    top: 0; /* Stick to the top of the container */
+    /* or bottom: 0; Stick to the bottom of the container */
+    /* background-color: white; Example styling */
+    /* padding: 10px; */
+    /* z-index: 1000; Adjust as needed */
+  }
+  
